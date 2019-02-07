@@ -1,0 +1,240 @@
+*{
+    margin: 1% 3%;
+    margin-right:3%;
+
+	text-decoration: none;
+
+}
+
+body{
+	font-family:  'Alegreya', sans-serif ,  Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
+body::after {
+	content: "";
+	background-size: 100% 100%;
+	top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width:100%;
+    height:100%;
+	margin: 0px 0px 0px 0px; 
+	position:fixed;
+	z-index: -1;
+}
+img{
+	display:inline-block;
+	box-shadow: 0 0 10px 0#df8afc7e;
+
+}
+.label{
+	display:inline-block;
+
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+form{
+	padding: 0 10%;
+	display: inline;
+
+}
+input, textarea, .label_block{
+	display:inline-block;
+
+    width:100%;
+    padding: 12px 2px;
+    border : 0;
+    box-shadow: 0 0 10px 0#df8afc7e;
+    border-radius: 5px;
+
+}
+b{
+	display:block;
+}
+.button{
+	
+    background-color: rgb(180, 154, 179); 
+    border: none;
+    width : 50%;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    float:right;
+	font-size: 16px;
+    box-shadow: 0 0 10px 0#df8afc7e;
+    border-radius: 5px;
+}
+
+.cancel_button{
+	padding:12px 6px;
+	width:20%;
+	margin-top:20%;
+	
+	float:left;
+	display:block;
+
+}
+.edit_button{
+	margin:10%;
+	padding:12px 6px;
+	width:20%;
+	margin-top:20%;
+	
+	float:left;
+	display:block;
+
+	height:10%;
+}
+.error{
+    color:red;
+    font-size: 70%;
+}
+
+.picupload{
+	width:80%;
+	position: relative;
+	padding:0;
+	float:left;
+	box-shadow: 0 0 10px 0#df8afc7e;
+
+}
+.image{
+	margin-top:15%;
+}
+.detail_form{
+	width:50%;
+	display:inline-block;
+	margin-top:15%;
+	margin-right:0%;
+	padding-right:0%;
+	padding-left:0%;
+	margin-left:0%;
+}
+.userProfile{
+	width:50%;
+	margin-left:-2%;
+}
+.user_orders{
+	clear: both;
+	width:100%;
+	margin-left:-10%;
+}
+.right{
+	float:right;
+	margin-top:10%;
+	padding-bottom:10%;
+}
+.clear{
+	clear:both;
+	display:block;
+	margin-left:40%;
+}
+.uname{
+	font-size: 80%;
+	font-style: italic;
+	display: block;
+}
+
+.addr{
+	clear:both;
+	display:block;
+	margin: 10 0%;
+	padding:0 2%;
+}
+#fileToUpload{
+	width: 0.1px;
+	height: 0.1px;
+	opacity: 0;
+	overflow: hidden;
+	position: absolute;
+	z-index: -1;
+}
+.image{
+	margin-left:15%;
+	float:left;
+
+}
+.button:hover{
+	background-color: rgb(179, 105, 176); 
+	transition: 1s;
+
+}
+.file{
+	border:0;
+}
+header{
+    position: fixed;
+	max-height:0.5%;
+    width:100%;
+    margin-left:-5%;
+    margin-top:-4%;
+    margin-right:-2%;
+    padding-bottom: 1%;
+}
+h1{
+	background: rgba(151, 128, 118, 0.5);
+
+	font-weight:200;
+	margin: 1% auto;
+	text-align: center;
+	font-size: 300%;
+
+
+}
+
+a{
+	text-decoration: none;
+}
+nav{
+	background: rgba(143, 135, 131, 0.5);
+
+	text-align: center;
+	margin: 1% auto;
+	/* padding:2%; */
+}
+.nav-bar{
+	align-items: center;
+
+	/* max-width:1200px; */
+}
+
+.nav-bar  ul  li{
+	display:inline-block;
+	padding: 0% 1%;
+	width:20%;
+	height:5%;
+	font-size:110%;
+	font-weight:100;
+	color:darkgray;
+}
+
+.nav-bar ul li a{
+	color:rgb(49, 47, 47);
+
+}
+
+.nav-bar ul li a:hover{
+	font-size:105%;
+	color:black;
+	transition: 0.3s;
+}
+
+@media screen and (max-width:835px){
+	.cancel_button, .edit_button{
+		float:none;
+	}
+	.detail_form{
+		
+		width:100%;
+		clear:both;
+		display:block;
+		margin: 10 0%;
+		padding:0 2%;
+	}
+	h1{
+		font-size:170%;
+	}
+}

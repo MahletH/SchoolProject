@@ -1,0 +1,97 @@
+
+*{
+    margin:2%;
+     margin-left: 2%;
+     
+ }
+.form{
+    width:50%;
+    margin:10% 10% 0% 15%;
+    align-self:left;
+}
+input{
+    width:100%;
+    padding: 12px 20px;
+    border : 0;
+    box-shadow: 0 0 10px 0#df8afc7e;
+    border-radius: 5px;
+
+}
+.error{
+    color:red;
+    font-size: 50%;
+}
+
+.button{
+	
+    background-color: rgb(124, 124, 124); 
+    border: none;
+    width : 50%;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    float:right;
+	font-size: 16px;
+    box-shadow: 0 0 10px 0#df8afc7e;
+    border-radius: 5px;
+}
+
+.default{
+    float:left;
+    padding:12px 6px;
+}
+.button:hover{
+    background-color: rgb(119, 98, 118); 
+    transition: 1.5s;
+}
+
+.nav_button{
+	text-decoration: none;
+}
+nav{
+	background: rgba(143, 135, 131, 0.5);
+
+	text-align: center;
+	margin: 1% auto;
+	/* padding:2%; */
+}
+header{
+	max-height:1%;
+	width:100%;
+	padding-bottom: 1%;
+}
+h1{
+	background: rgba(151, 128, 118, 0.5);
+
+	font-weight:200;
+	margin: 1% auto;
+	text-align: center;
+	font-size: 500%;
+
+
+}
+
+.nav-bar{
+	align-items: center;
+
+	/* max-width:1200px; */
+}
+
+.nav-bar  ul  li{
+	display:inline-block;
+	padding:1%;
+	font-size:110%;
+	font-weight:100;
+	color:darkgray;
+}
+
+.nav-bar ul li .nav_button{
+	color:rgb(49, 47, 47);
+
+}
+
+.nav-bar ul li .nav_button:hover{
+	font-size:105%;
+	color:black;
+	transition: 0.3s;
+}
